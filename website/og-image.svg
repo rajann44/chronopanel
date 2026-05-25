@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="ChronoPanel social preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff" />
+      <stop offset="100%" stop-color="#e9f0fb" />
+    </linearGradient>
+    <linearGradient id="ringA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f79de" />
+      <stop offset="100%" stop-color="#7f6de9" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="32" fill="url(#bg)" />
+  <circle cx="880" cy="315" r="154" fill="none" stroke="#d5e4ff" stroke-width="58" />
+  <path d="M880 161a154 154 0 0 1 133 77" fill="none" stroke="url(#ringA)" stroke-width="58" stroke-linecap="round" />
+  <path d="M1013 238a154 154 0 0 1-47 179" fill="none" stroke="#4fb5c6" stroke-width="58" stroke-linecap="round" />
+  <path d="M966 417a154 154 0 0 1-169 15" fill="none" stroke="#55b181" stroke-width="58" stroke-linecap="round" />
+  <circle cx="880" cy="315" r="82" fill="#ffffff" />
+  <text x="110" y="176" fill="#67758b" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="26" letter-spacing="5">CHROME EXTENSION</text>
+  <text x="110" y="268" fill="#182131" font-family="Iowan Old Style, Palatino Linotype, Book Antiqua, Palatino, Baskerville, Georgia, serif" font-size="86" letter-spacing="-2">ChronoPanel</text>
+  <text x="110" y="346" fill="#182131" font-family="Iowan Old Style, Palatino Linotype, Book Antiqua, Palatino, Baskerville, Georgia, serif" font-size="56" letter-spacing="-1.5">Private browser time,</text>
+  <text x="110" y="410" fill="#182131" font-family="Iowan Old Style, Palatino Linotype, Book Antiqua, Palatino, Baskerville, Georgia, serif" font-size="56" letter-spacing="-1.5">clearly summarized.</text>
+  <text x="110" y="490" fill="#6c7a8f" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="28">Local browser history summaries with daily totals, weekly activity,</text>
+  <text x="110" y="528" fill="#6c7a8f" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="28">top websites, and privacy-first on-device storage.</text>
+</svg>
