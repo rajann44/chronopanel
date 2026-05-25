@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  ChronoPanel is a privacy-first Chrome extension that transforms browsing history into clear daily and weekly time insights. It helps users understand online habits with local-only summaries, top websites, and category breakdowns without requiring accounts or external analytics.
+</p>
+
+<p align="center">
   <a href="https://chromewebstore.google.com/detail/chronopanel/ilenhdnfpcpgmjiapbmbidpdmamnaeem?hl=en">
     <img src="https://img.shields.io/chrome-web-store/v/ilenhdnfpcpgmjiapbmbidpdmamnaeem?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white" alt="Chrome Web Store version" />
   </a>
