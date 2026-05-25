@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChronoPanel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">ChronoPanel</p>
+          <h1 id="dayTitle">Today</h1>
+        </div>
+        <button id="refreshButton" class="ghost-button" type="button">Sync now</button>
+      </header>
+
+      <nav class="tabs" aria-label="Dashboard views">
+        <button data-view="summary" class="tab active" type="button">Summary</button>
+        <button data-view="websites" class="tab" type="button">Websites</button>
+        <button data-view="settings" class="tab" type="button">Settings</button>
+      </nav>
+
+      <section id="summaryView" class="view active"></section>
+      <section id="websitesView" class="view"></section>
+      <section id="settingsView" class="view"></section>
+    </main>
+
+    <script type="module" src="../dist/sidepanel.js"></script>
+  </body>
+</html>

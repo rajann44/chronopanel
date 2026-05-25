@@ -1,0 +1,19 @@
+{
+  "name": "chronopanel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ChronoPanel Chrome extension (Manifest V3 + TypeScript)",
+  "scripts": {
+    "generate:icons": "mkdir -p assets && sips -s format png assets/icon.svg --resampleHeightWidth 16 16 --out assets/icon-16.png >/dev/null && sips -s format png assets/icon.svg --resampleHeightWidth 32 32 --out assets/icon-32.png >/dev/null && sips -s format png assets/icon.svg --resampleHeightWidth 48 48 --out assets/icon-48.png >/dev/null && sips -s format png assets/icon.svg --resampleHeightWidth 128 128 --out assets/icon-128.png >/dev/null",
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "package:extension": "npm run generate:icons && npm run build && rm -rf release && mkdir -p release/extension && cp -R manifest.json dist ui assets README.md release/extension && (cd release && zip -qr ChronoPanel-extension.zip extension)",
+    "check": "npm run generate:icons && npm run build && npm run typecheck"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.302",
+    "esbuild": "^0.25.6",
+    "typescript": "^5.8.3"
+  }
+}

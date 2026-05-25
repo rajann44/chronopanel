@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChronoPanel</title>
+    <meta name="description" content="Private browser usage summaries, stored locally on your device." />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-row">
+        <a class="brand" href="./">ChronoPanel</a>
+        <nav class="nav">
+          <a href="#features">Features</a>
+          <a href="#privacy">Privacy</a>
+          <a href="#install">Install</a>
+          <a href="./privacy.html">Privacy Policy</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <p class="eyebrow">Chrome Extension</p>
+            <h1>See your browsing time with quiet clarity.</h1>
+            <p class="lede">
+              ChronoPanel turns recent Chrome history into a calm, local-only dashboard for daily habits,
+              weekly trends, and website breakdowns.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#install">Get Ready for Install</a>
+              <a class="button secondary" href="./privacy.html">Read Privacy Policy</a>
+            </div>
+            <p class="fine-print">No accounts. No cloud sync. No analytics platform. Just local summaries on your device.</p>
+          </div>
+          <div class="showcase">
+            <div class="device-frame">
+              <div class="dashboard-card ring-card">
+                <div class="ring"></div>
+                <div class="ring-copy">
+                  <span>Today</span>
+                  <strong>4h 32m</strong>
+                  <small>Local browser summary</small>
+                </div>
+              </div>
+              <div class="dashboard-grid">
+                <article class="dashboard-card stat-card">
+                  <span>Top website</span>
+                  <strong>github.com</strong>
+                </article>
+                <article class="dashboard-card stat-card">
+                  <span>Top category</span>
+                  <strong>Developer Tools</strong>
+                </article>
+                <article class="dashboard-card chart-card wide">
+                  <span>7-day activity</span>
+                  <div class="mini-week">
+                    <i style="height: 28%"></i>
+                    <i style="height: 52%"></i>
+                    <i style="height: 60%"></i>
+                    <i style="height: 45%"></i>
+                    <i style="height: 70%"></i>
+                    <i style="height: 82%"></i>
+                    <i class="active" style="height: 94%"></i>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section surface">
+        <div class="wrap">
+          <p class="eyebrow">What It Does</p>
+          <h2>Designed for a quick, readable check-in.</h2>
+          <div class="feature-grid">
+            <article>
+              <h3>Daily summary</h3>
+              <p>A clean overview of total time, top sites, categories, and time-of-day patterns.</p>
+            </article>
+            <article>
+              <h3>7-day trends</h3>
+              <p>Move across the week and let the dashboard follow the day you choose.</p>
+            </article>
+            <article>
+              <h3>Local-first privacy</h3>
+              <p>History is processed inside the extension and stored in Chrome storage on your device.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="privacy" class="section">
+        <div class="wrap split">
+          <div>
+            <p class="eyebrow">Privacy</p>
+            <h2>Nothing leaves your browser unless you export it yourself.</h2>
+          </div>
+          <div class="privacy-list">
+            <div><strong>Collected:</strong> visit timestamps, domains, optional full URLs if you enable them.</div>
+            <div><strong>Not collected:</strong> passwords, form data, message content, page content.</div>
+            <div><strong>Sent externally:</strong> nothing.</div>
+            <div><strong>Stored:</strong> locally in Chrome storage.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="install" class="section surface">
+        <div class="wrap split">
+          <div>
+            <p class="eyebrow">Install</p>
+            <h2>Ready to publish and easy to deploy.</h2>
+          </div>
+          <ol class="steps">
+            <li>Load the unpacked extension in Chrome during development.</li>
+            <li>Run the packaged zip for Chrome Web Store submission.</li>
+            <li>Deploy this static site on Vercel by setting the root directory to `website`.</li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-row">
+        <span>ChronoPanel</span>
+        <div>
+          <a href="./privacy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
