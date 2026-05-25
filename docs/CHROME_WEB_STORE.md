@@ -2,7 +2,7 @@
 
 ## Single Purpose
 
-ChronoPanel helps users review their recent browser usage with a local-only dashboard built from Chrome history.
+ChronoPanel provides a local dashboard that estimates browsing time from Chrome history and shows daily/weekly summaries, top websites, and category breakdowns.
 
 ## Permissions Justification
 
@@ -11,11 +11,6 @@ ChronoPanel helps users review their recent browser usage with a local-only dash
 - `sidePanel`: required to open the dashboard from the extension action.
 
 ## Privacy Notes
-
-- No data leaves the device.
-- No analytics, accounts, remote APIs, or cloud sync are used.
-- Only browsing metadata needed for summaries is stored.
-- Full URL tracking is optional and disabled by default.
 
 ## Required Submission Assets
 

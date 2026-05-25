@@ -21,6 +21,7 @@ Why people use it:
 - it stays local and simple
 - it avoids cloud accounts and analytics systems
 - it gives a fast daily snapshot instead of noisy reports
+- it is open-source and auditable: https://github.com/rajann44/chronopanel
 
 Privacy:
 
