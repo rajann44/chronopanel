@@ -1,6 +1,17 @@
 # ChronoPanel
 
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ilenhdnfpcpgmjiapbmbidpdmamnaeem?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/chronopanel/ilenhdnfpcpgmjiapbmbidpdmamnaeem?hl=en)
+[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/ilenhdnfpcpgmjiapbmbidpdmamnaeem?label=Users)](https://chromewebstore.google.com/detail/chronopanel/ilenhdnfpcpgmjiapbmbidpdmamnaeem?hl=en)
+[![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/ilenhdnfpcpgmjiapbmbidpdmamnaeem?label=Rating)](https://chromewebstore.google.com/detail/chronopanel/ilenhdnfpcpgmjiapbmbidpdmamnaeem?hl=en)
+
 ChronoPanel is a privacy-first Chrome extension that turns Chrome history into a calm daily and weekly usage dashboard.
+
+Official Chrome Web Store listing: https://chromewebstore.google.com/detail/chronopanel/ilenhdnfpcpgmjiapbmbidpdmamnaeem?hl=en
+
+Extension authenticity details:
+- Extension name: ChronoPanel
+- Extension ID: ilenhdnfpcpgmjiapbmbidpdmamnaeem
+- Publisher repository: https://github.com/rajann44/chronopanel
 
 - Local only by default
 - No account required
@@ -11,6 +22,8 @@ ChronoPanel is a privacy-first Chrome extension that turns Chrome history into a
 
 - Product site: https://chronopanel.vercel.app
 - Privacy policy: https://chronopanel.vercel.app/privacy
+
+The website and this repository both link directly to the official Chrome Web Store listing so users can verify authenticity quickly.
 
 The website explains the product in plain language and can be used directly in your Chrome Web Store listing.
 

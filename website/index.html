@@ -35,11 +35,21 @@
   <body>
     <header class="site-header">
       <div class="wrap header-row">
-        <a class="brand" href="./">ChronoPanel</a>
+        <a class="brand" href="./" aria-label="ChronoPanel home">
+          <img src="./favicon.svg" alt="ChronoPanel logo" width="28" height="28" />
+          <span>ChronoPanel</span>
+        </a>
         <nav class="nav">
           <a href="#features">Features</a>
+          <a href="#trust">Trust</a>
           <a href="#privacy">Privacy</a>
           <a href="#install">Install</a>
+          <a
+            href="https://chromewebstore.google.com/detail/chronopanel/ilenhdnfpcpgmjiapbmbidpdmamnaeem?hl=en"
+            target="_blank"
+            rel="noreferrer"
+            >Chrome Web Store</a
+          >
           <a href="./privacy.html">Privacy Policy</a>
         </nav>
       </div>
@@ -49,21 +59,37 @@
       <section class="hero">
         <div class="wrap hero-grid">
           <div>
-            <p class="eyebrow">Chrome Extension</p>
-            <h1>See your browsing time with quiet clarity.</h1>
+            <p class="eyebrow">Official Chrome Web Store Extension</p>
+            <h1>Trusted browser time insights, published on Chrome Web Store.</h1>
             <p class="lede">
               ChronoPanel is a privacy-first Chrome extension that turns recent browser history into a calm,
               local-only dashboard for daily habits, weekly trends, top websites, and category breakdowns.
             </p>
             <div class="cta-row">
-              <a class="button primary" href="#install">Get Ready for Install</a>
-              <a class="button secondary" href="./privacy.html">Read Privacy Policy</a>
+              <a
+                class="button primary"
+                href="https://chromewebstore.google.com/detail/chronopanel/ilenhdnfpcpgmjiapbmbidpdmamnaeem?hl=en"
+                target="_blank"
+                rel="noreferrer"
+                >Install from Chrome Web Store</a
+              >
+              <a class="button secondary" href="https://github.com/rajann44/chronopanel" target="_blank" rel="noreferrer"
+                >View Open-source Repository</a
+              >
             </div>
             <p class="fine-print">
               No accounts. No cloud sync. No analytics platform. Just local summaries on your device.
               Open-source on
               <a href="https://github.com/rajann44/chronopanel" target="_blank" rel="noreferrer">GitHub</a>.
             </p>
+            <div class="trust-inline" aria-label="Authenticity details">
+              <img src="./chrome-web-store-badge.svg" alt="Official Chrome Web Store listing badge" />
+              <ul>
+                <li><strong>Extension ID:</strong> ilenhdnfpcpgmjiapbmbidpdmamnaeem</li>
+                <li><strong>Published as:</strong> ChronoPanel on Chrome Web Store</li>
+                <li><strong>Source:</strong> Public code on GitHub for transparency</li>
+              </ul>
+            </div>
           </div>
           <div class="showcase">
             <div class="device-frame">
@@ -98,6 +124,46 @@
                 </article>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="trust" class="section surface trust-section">
+        <div class="wrap">
+          <p class="eyebrow">Trust And Authenticity</p>
+          <h2>Clear verification signals users can check in seconds.</h2>
+          <div class="trust-grid">
+            <article>
+              <h3>Official listing</h3>
+              <p>
+                Install ChronoPanel from the official Chrome Web Store listing with a stable extension ID and
+                transparent release path.
+              </p>
+              <a
+                class="text-link"
+                href="https://chromewebstore.google.com/detail/chronopanel/ilenhdnfpcpgmjiapbmbidpdmamnaeem?hl=en"
+                target="_blank"
+                rel="noreferrer"
+                >Open official listing</a
+              >
+            </article>
+            <article>
+              <h3>Open-source transparency</h3>
+              <p>
+                The extension code is public so users can audit behavior, privacy boundaries, and update history.
+              </p>
+              <a class="text-link" href="https://github.com/rajann44/chronopanel" target="_blank" rel="noreferrer"
+                >Review repository</a
+              >
+            </article>
+            <article>
+              <h3>Privacy commitment</h3>
+              <p>
+                ChronoPanel processes data locally in the browser and sends nothing externally unless you export
+                data yourself.
+              </p>
+              <a class="text-link" href="./privacy.html">Read privacy policy</a>
+            </article>
           </div>
         </div>
       </section>
@@ -142,12 +208,12 @@
         <div class="wrap split">
           <div>
             <p class="eyebrow">Install</p>
-            <h2>Ready to publish and easy to deploy.</h2>
+            <h2>Install from the official source in one step.</h2>
           </div>
           <ol class="steps">
-            <li>Load the unpacked extension in Chrome during development.</li>
-            <li>Run the packaged zip for Chrome Web Store submission.</li>
-            <li>Deploy this static site on Vercel by setting the root directory to `website`.</li>
+            <li>Open the official Chrome Web Store listing for ChronoPanel.</li>
+            <li>Click Add to Chrome and pin the extension in your browser toolbar.</li>
+            <li>Use the side panel to review daily totals, weekly trends, and category summaries.</li>
           </ol>
         </div>
       </section>
